@@ -1,0 +1,92 @@
+{
+  "tool": "userlens",
+  "version": "1.0.0",
+  "state": {
+    "accounts": {
+      "root": {
+        "uid": 0,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "deploy": {
+        "uid": 1001,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "zhangsan": {
+        "uid": 1002,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "lisi": {
+        "uid": 1003,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "wangwu": {
+        "uid": 1004,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "zhao_liu": {
+        "uid": 1005,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "sun_qi": {
+        "uid": 1006,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "zhou_ba": {
+        "uid": 1007,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "oldadmin": {
+        "uid": 1008,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "intern01": {
+        "uid": 2001,
+        "shell": "/bin/bash",
+        "locked": false,
+        "in_shadow": true
+      },
+      "nginx": {
+        "uid": 996,
+        "shell": "/sbin/nologin",
+        "locked": true,
+        "in_shadow": true
+      },
+      "mysql": {
+        "uid": 27,
+        "shell": "/bin/false",
+        "locked": true,
+        "in_shadow": true
+      }
+    },
+    "priv": {
+      "deploy": [
+        "sudo",
+        "wheel"
+      ],
+      "oldadmin": [
+        "sudo"
+      ],
+      "zhangsan": [
+        "wheel"
+      ]
+    }
+  }
+}
